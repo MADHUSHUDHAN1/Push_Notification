@@ -18,11 +18,12 @@
 
         async function subscribe() {
             let sw = await navigator.serviceWorker.ready;
+            console.log(sw);
             let push = await sw.pushManager.subscribe({
                 userVisibleOnly: true,
                 applicationServerKey : 'BLo4LyAdCsv2g5p9njRFTXWkaNn0sOZcU07yEsCpjiMQsJxQp9QO12_GE4tGP_-F-arrEJIwaTYW_Nljw9rMp90'
             });
-            console.log(JSON.stringify(push));
+            console.log(push);
         }
     </script>
 </body>

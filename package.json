@@ -1,7 +1,6 @@
 {
   "name": "push_notification-v2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "web-push": "^3.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MADHUSHUDHAN1/Push_Notification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MADHUSHUDHAN1/Push_Notification/issues"
+  },
+  "homepage": "https://github.com/MADHUSHUDHAN1/Push_Notification#readme",
+  "description": ""
 }
